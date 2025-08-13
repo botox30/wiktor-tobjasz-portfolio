@@ -32,44 +32,7 @@ export default function HeroSection() {
           Crafting digital experiences that blend creativity with cutting-edge technology
         </p>
 
-        {/* Social Links */}
-        <div className="flex justify-center space-x-6 mb-12">
-          <a 
-            href="#" 
-            className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-500 transition-all duration-300 hover:scale-110"
-            data-testid="social-github"
-          >
-            <i className="fab fa-github text-white"></i>
-          </a>
-          <a 
-            href="#" 
-            className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-500 transition-all duration-300 hover:scale-110"
-            data-testid="social-linkedin"
-          >
-            <i className="fab fa-linkedin text-white"></i>
-          </a>
-          <a 
-            href="#" 
-            className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-500 transition-all duration-300 hover:scale-110"
-            data-testid="social-twitter"
-          >
-            <i className="fab fa-twitter text-white"></i>
-          </a>
-          <a 
-            href="#" 
-            className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-500 transition-all duration-300 hover:scale-110"
-            data-testid="social-dribbble"
-          >
-            <i className="fab fa-dribbble text-white"></i>
-          </a>
-          <a 
-            href="#" 
-            className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center hover:bg-purple-500 transition-all duration-300 hover:scale-110"
-            data-testid="social-email"
-          >
-            <i className="fas fa-envelope text-white"></i>
-          </a>
-        </div>
+
 
         <button 
           onClick={() => scrollToSection('about')}
