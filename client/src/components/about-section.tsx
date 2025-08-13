@@ -20,12 +20,13 @@ export default function AboutSection() {
               <div className="order-1 md:order-2">
                 <h3 className="text-2xl font-semibold mb-4 text-purple-400" data-testid="about-subtitle">Passionate Creator</h3>
                 <p className="text-gray-300 mb-4 leading-relaxed" data-testid="about-description-1">
-                  Passionate web developer and designer specializing in creating modern, interactive digital experiences. 
-                  I focus on building responsive websites and applications that deliver exceptional user experiences.
+                  I'm a web developer specializing in building modern, responsive, and fully custom websites tailored to each client's needs. I create both front-end and full-stack applications, combining clean design with robust functionality.
                 </p>
-                <p className="text-gray-300 mb-6 leading-relaxed" data-testid="about-description-2">
-                  My work showcases a blend of creative design and technical implementation, from dynamic web applications 
-                  to responsive platforms that prioritize both aesthetics and functionality.
+                <p className="text-gray-300 mb-4 leading-relaxed" data-testid="about-description-2">
+                  My experience includes developing appointment-based service websites and dynamic, content-rich business sites with features like booking systems, interactive galleries, and database-driven content management. I work with modern technologies such as React, TypeScript, Tailwind CSS, Express.js, and PostgreSQL to deliver fast, user-friendly, and visually appealing solutions.
+                </p>
+                <p className="text-gray-300 mb-6 leading-relaxed" data-testid="about-description-3">
+                  Whether it's a sleek single-page site or a complex full-stack application, I focus on performance, usability, and a polished user experience.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-frontend">Web Developer</span>
