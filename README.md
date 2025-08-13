@@ -52,23 +52,27 @@ A modern, dark-themed portfolio website showcasing web development projects with
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/wiktor-tobjasz-portfolio.git
 cd wiktor-tobjasz-portfolio
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Set up environment variables (optional):
+
 ```bash
 cp .env.example .env
 # Edit .env with your database configuration
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -80,6 +84,7 @@ npm run dev
 ### GitHub Pages Deployment
 
 1. Build the project:
+
 ```bash
 npm run build
 ```
@@ -104,7 +109,9 @@ npm run build
 ## 🎨 Customization
 
 ### Colors
+
 Edit the color variables in `client/src/index.css`:
+
 ```css
 :root {
   --primary: hsl(260, 100%, 70%);
@@ -114,6 +121,7 @@ Edit the color variables in `client/src/index.css`:
 ```
 
 ### Content
+
 - Update personal information in `client/src/components/hero-section.tsx`
 - Modify project details in `client/src/components/portfolio-section.tsx`
 - Edit skills in `client/src/components/skills-section.tsx`
@@ -138,13 +146,6 @@ Edit the color variables in `client/src/index.css`:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Contact
-
-**Wiktor Tobjasz**
-- Email: wiktor.tobjasz@example.com
-- Portfolio: [Your Portfolio URL]
-- GitHub: [@yourusername](https://github.com/yourusername)
-
 ---
 
-*Built with ❤️ and lots of coffee*
+_Built with ❤️ and lots of coffee_
