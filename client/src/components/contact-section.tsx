@@ -32,7 +32,7 @@ export default function ContactSection() {
     {
       icon: "fas fa-envelope",
       title: "Email",
-      detail: "alex.rivera@example.com",
+      detail: "wiktor.tobjasz@example.com",
     },
     {
       icon: "fas fa-map-marker-alt",

@@ -12,15 +12,15 @@ export default function HeroSection() {
         {/* Professional headshot with purple glow effect */}
         <div className="relative mb-8 animate-float">
           <img 
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400" 
-            alt="Professional headshot of Alex Rivera" 
+            src="https://media.discordapp.net/attachments/1195125993438969929/1405070624627626194/f9dd63aa6e75bf491c08d3bb72df8c9c.jpg?ex=689d7d7d&is=689c2bfd&hm=9d31b04cfd1561e556270734f450d8b47742b6dcd459f976c2cf9744046a9dfa&=&format=webp&width=661&height=441" 
+            alt="Professional headshot of Wiktor Tobjasz" 
             className="w-48 h-48 rounded-full mx-auto object-cover glow-purple border-4 border-purple-500"
             data-testid="profile-photo"
           />
           <div className="absolute -top-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-black" data-testid="status-indicator"></div>
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 text-glow" data-testid="hero-title">Alex Rivera</h1>
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 text-glow" data-testid="hero-title">Wiktor Tobjasz</h1>
         <p className="text-xl md:text-2xl text-purple-400 mb-6" data-testid="hero-subtitle">Creative Developer & Designer</p>
         
         <div className="flex justify-center items-center space-x-4 mb-8">

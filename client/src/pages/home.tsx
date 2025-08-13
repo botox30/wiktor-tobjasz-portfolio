@@ -29,7 +29,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-gray-300">&copy; 2024 Alex Rivera. All rights reserved.</p>
+              <p className="text-gray-300">&copy; 2024 Wiktor Tobjasz. All rights reserved.</p>
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-gray-400 text-sm">Made with</span>

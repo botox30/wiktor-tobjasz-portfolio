@@ -10,8 +10,8 @@ export default function AboutSection() {
               {/* Professional headshot for about section */}
               <div className="order-2 md:order-1">
                 <img 
-                  src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=600" 
-                  alt="Alex Rivera working at desk" 
+                  src="https://media.discordapp.net/attachments/1195125993438969929/1405070624627626194/f9dd63aa6e75bf491c08d3bb72df8c9c.jpg?ex=689d7d7d&is=689c2bfd&hm=9d31b04cfd1561e556270734f450d8b47742b6dcd459f976c2cf9744046a9dfa&=&format=webp&width=661&height=441" 
+                  alt="Wiktor Tobjasz working at desk" 
                   className="rounded-xl w-full h-auto shadow-2xl"
                   data-testid="about-image"
                 />
@@ -20,17 +20,17 @@ export default function AboutSection() {
               <div className="order-1 md:order-2">
                 <h3 className="text-2xl font-semibold mb-4 text-purple-400" data-testid="about-subtitle">Passionate Creator</h3>
                 <p className="text-gray-300 mb-4 leading-relaxed" data-testid="about-description-1">
-                  With over 5 years of experience in web development and design, I specialize in creating 
-                  immersive digital experiences that seamlessly blend functionality with aesthetic appeal.
+                  Passionate web developer and designer specializing in creating modern, interactive digital experiences. 
+                  I focus on building responsive websites and applications that deliver exceptional user experiences.
                 </p>
                 <p className="text-gray-300 mb-6 leading-relaxed" data-testid="about-description-2">
-                  My journey began with a fascination for the intersection of technology and creativity, 
-                  leading me to master modern frameworks, design systems, and user experience principles.
+                  My work showcases a blend of creative design and technical implementation, from dynamic web applications 
+                  to responsive platforms that prioritize both aesthetics and functionality.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-frontend">Frontend Expert</span>
-                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-uiux">UI/UX Designer</span>
-                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-creative">Creative Thinker</span>
+                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-frontend">Web Developer</span>
+                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-uiux">UI Designer</span>
+                  <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm" data-testid="tag-creative">Creative Developer</span>
                 </div>
               </div>
             </div>

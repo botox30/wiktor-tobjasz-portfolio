@@ -10,7 +10,7 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full z-50 glass-card" data-testid="navigation">
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <h1 className="text-xl font-bold text-purple-400" data-testid="logo">AR</h1>
+          <h1 className="text-xl font-bold text-purple-400" data-testid="logo">WT</h1>
           <div className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
