@@ -6,14 +6,29 @@ import SkillsSection from "@/components/skills-section";
 
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen overflow-x-hidden">
-      {/* Background Pattern */}
-      <div className="fixed inset-0 opacity-10 pointer-events-none">
-        <img 
-          src="https://pixabay.com/get/g67d832f1b4dc163047c1e2f542c4792afe33635bf89d8c0f63e616e0a349b315b29162e3aa0461cb18ee4936d74ac0f853c71fc20b4626a5be2083a1d73d3299_1280.jpg" 
-          alt="Abstract tech background" 
-          className="w-full h-full object-cover" 
-        />
+    <div className="text-white min-h-screen overflow-x-hidden">
+      {/* Snowflake Animation */}
+      <div className="snowflakes">
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
       </div>
 
       <Navigation />
