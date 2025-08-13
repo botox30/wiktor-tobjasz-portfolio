@@ -31,7 +31,7 @@ export default function PortfolioSection() {
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-16 text-glow" data-testid="portfolio-title">Featured Work</h2>
         
-        <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {projects.map((project) => (
             <div 
               key={project.id}
@@ -53,7 +53,7 @@ export default function PortfolioSection() {
               <p className="text-gray-300 mb-4" data-testid={`project-description-${project.id}`}>
                 {project.description}
               </p>
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, index) => (
                   <span 
                     key={index}
@@ -64,26 +64,8 @@ export default function PortfolioSection() {
                   </span>
                 ))}
               </div>
-              <a 
-                href="#" 
-                className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors"
-                data-testid={`project-link-${project.id}`}
-              >
-                View Project <i className="fas fa-arrow-right ml-2"></i>
-              </a>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <a 
-            href="#" 
-            className="inline-flex items-center px-8 py-3 bg-purple-600 hover:bg-purple-500 rounded-full font-medium transition-colors duration-300"
-            data-testid="view-all-projects"
-          >
-            View All Projects
-            <i className="fas fa-arrow-right ml-2"></i>
-          </a>
         </div>
       </div>
     </section>

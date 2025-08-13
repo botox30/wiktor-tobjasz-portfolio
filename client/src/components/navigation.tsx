@@ -40,13 +40,7 @@ export default function Navigation() {
             >
               Skills
             </button>
-            <button 
-              onClick={() => scrollToSection('contact')}
-              className="text-gray-300 hover:text-purple-400 transition-colors duration-300"
-              data-testid="nav-contact"
-            >
-              Contact
-            </button>
+
           </div>
         </div>
       </div>
